@@ -48,7 +48,7 @@ for ( i = 0; i < 5; i++)
     printf("\n\n====Informacaoes do %d aluno :",i+1);
     printf("\nO Nome do aluno e :%s",nome[i]);
     printf("\nA Idade e:%d",idade[i]);
-      
+    printf("\nA Media e %.1f",media[i]);
     for ( j = 0; j < 3; j++)
     {
         printf("\nA %d nota e :%.1f",j+1,nota[i][j]);
